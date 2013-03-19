@@ -1,0 +1,23 @@
+CREATE TABLE instructor(
+	ino VARCHAR2(10),
+	ifname VARCHAR2(99) NOT NULL,
+	ilname VARCHAR2(99) NOT NULL,
+	igender VARCHAR2(10) NOT NULL,
+	ihaddr VARCHAR2(1000),
+	icaddr VARCHAR2(1000),
+	ihcontact NUMBER(15),
+	iccontact NUMBER(15),
+	imobile NUMBER(15),
+	iuser VARCHAR2(99) NOT NULL,
+	ipword VARCHAR2(99) NOT NULL,
+	iemail VARCHAR(99) NOT NULL,
+	iregdate DATE NOT NULL,
+	idesig VARCHAR2(99),
+	irank NUMBER(5),
+	iroom VARCHAR2(99),
+	iappr VARCHAR2(99) NOT NULL,
+	iact VARCHAR2(99) NOT NULL,
+	constraint i_no_pk primary key(ino),
+	constraint i_user_uk unique(iuser),
+	constraint i_email_uk unique(iemail)
+);

@@ -1,0 +1,9 @@
+Things to do:
+	
+	-	Student
+	
+		-	Registration Adviser
+		-	SP Adviser
+		-	Academic History
+		-	Elective Course Descriptions
+		-	Inbox/Sentbox User Experience

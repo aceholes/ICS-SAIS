@@ -1,0 +1,22 @@
+CREATE TABLE student(
+	sno VARCHAR2(10),
+	sfname VARCHAR2(99) NOT NULL,
+	slname VARCHAR2(99) NOT NULL,
+	sgender VARCHAR2(10) NOT NULL,
+	shaddr VARCHAR2(1000),
+	scaddr VARCHAR2(1000),
+	shcontact NUMBER(15),
+	sccontact NUMBER(15),
+	smobile NUMBER(15),
+	suser VARCHAR2(99) NOT NULL,
+	spword VARCHAR2(99) NOT NULL,
+	semail VARCHAR2(99) NOT NULL,
+	sregdate DATE NOT NULL,
+	scurr VARCHAR2(99),
+	sspgrad VARCHAR2(10),
+	sappr VARCHAR2(99) NOT NULL,
+	sact VARCHAR2(99) NOT NULL,
+	constraint s_no_pk primary key(sno),
+	constraint s_user_uk unique(suser),
+	constraint s_email_uk unique(semail)
+);
