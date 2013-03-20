@@ -1,0 +1,20 @@
+CREATE TABLE encoder(
+	eno VARCHAR2(10),
+	efname VARCHAR2(99) NOT NULL,
+	elname VARCHAR2(99) NOT NULL,
+	egender VARCHAR2(10) NOT NULL,
+	ehaddr VARCHAR2(1000),
+	ecaddr VARCHAR2(1000),
+	ehcontact NUMBER(15),
+	eccontact NUMBER(15),
+	emobile NUMBER(15),
+	euser VARCHAR2(99) NOT NULL,
+	epword VARCHAR2(99) NOT NULL,
+	eemail VARCHAR2(99) NOT NULL,
+	eregdate DATE NOT NULL,
+	erole VARCHAR2(99),
+	eact VARCHAR2(99) NOT NULL,
+	constraint e_no_pk primary key(eno),
+	constraint e_user_uk unique(euser),
+	constraint e_email_uk unique(eemail)
+);

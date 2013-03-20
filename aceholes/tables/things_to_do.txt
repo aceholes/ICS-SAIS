@@ -1,0 +1,16 @@
+Things to do:
+	
+	-	Student
+	
+		-	Academic History
+		
+	-	Instructor
+
+		-	Schedule
+		-	Previous Students
+
+	-	Encoder
+
+	-	Administrator
+
+		-	Log Files
