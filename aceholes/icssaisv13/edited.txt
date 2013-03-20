@@ -1,0 +1,36 @@
+Edited:
+	admin_request_approval.php
+	admin_account_activation.php
+	admin_view_users.php
+	admin_send_message.php
+	admin_send_message_redirect.php
+	admin_log_files.php
+
+	home_redirect.php
+
+	student_edit_basic_info_redirect.php
+	student_send_message_redirect.php
+	student_change_password_redirect.php
+	student_view_approved_electives.php
+	student_view_adviser.php
+	student_view_sp_adviser
+
+	instructor_edit_basic_info_redirect.php
+	instructor_send_message_redirect.php
+	instructor_change_password_redirect.php
+
+	encoder_edit_basic_info_redirect.php
+	encoder_change_password_redirect.php
+
+New:
+	admin_log_files_instructor.php
+	admin_log_files_encoder.php	
+
+	encoder_view_student_acad_info.php
+	encoder_view_reg_adviser.php
+	encoder_view_sp_adviser.php
+	encoder_add_reg_adviser.php
+	encoder_add_reg_adviser_redirect.php
+
+	radviser_change.sql
+	sadviser_change.sql
